@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>PokéAPI</title>
+  </head>
+  <body>
+    <div class="searchbar">
+        <div class="form-item">
+            <input type="text" name="search" id="search" placeholder="Pesquisar Pokémon">
+            <button style="margin-left: 0.25rem;" id="searchButtom">Pesquisar</button>
+        </div>
+        <div class="form-item" style="margin-left: .25rem;">
+            <label for="limit">Limite:</label>
+            <select name="limit" id="limit">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+            </select>
+        </div>
+    </div>
+    <div class="content" id="content">
+
+    </div>
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>
