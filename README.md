@@ -1,2 +1,2 @@
 # Pokédex
-mini-projeto para a atividade "Dominando o Protocolo HTTP e Integrando com a PokeAPI" na DIO.
+mini-projeto para a atividade "Construindo uma Pokédex com JavaScript" na DIO.
